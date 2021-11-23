@@ -39,23 +39,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
-        /*appBar: AppBar(
-          title: Text('Hola mundo Feliz'),
-        ),*/
-        //body: new DescriptionPlace('Bahamas',4,descriptionDummy),
-        body: Stack(
-          children: [
-            ListView(
-              children: [
-                DescriptionPlace('Bahamas',4,descriptionDummy),
-                ReviewList()
-              ],
-            ),
-            HeaderAppBar(),
-          ],
-        )
-      )//const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: Center()//const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
