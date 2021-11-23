@@ -4,7 +4,7 @@ import 'review_list.dart';
 import 'gradient_back.dart';
 import 'header_appbar.dart';
 import 'package:flutter/services.dart';
-
+import 'platzi_trips.dart';
 
 void main() {
   runApp(MyApp());
@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Center()//const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: PlatziTrips()//const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
