@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:platzi_trips_app/platzi_trips_cupertino.dart';
-import 'description_place.dart';
-import 'review_list.dart';
-import 'gradient_back.dart';
-import 'header_appbar.dart';
+import 'Place/ui/widgets/description_place.dart';
+import 'Place/ui/widgets/review_list.dart';
+import 'widgets/gradient_back.dart';
+import 'Place/ui/screens/header_appbar.dart';
 import 'package:flutter/services.dart';
 import 'platzi_trips.dart';
 
